@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Educator
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Classroom	app/models/classroom.rb	/^class Classroom < ActiveRecord::Base$/;"	c
+ClassroomStudent	app/models/classroom_student.rb	/^class ClassroomStudent < ActiveRecord::Base$/;"	c
+ClassroomsController	app/controllers/classrooms_controller.rb	/^class ClassroomsController < ApplicationController$/;"	c
+CreateClassroomStudents	db/migrate/20160119215120_create_classroom_students.rb	/^class CreateClassroomStudents < ActiveRecord::Migration$/;"	c
+CreateClassrooms	db/migrate/20160119214924_create_classrooms.rb	/^class CreateClassrooms < ActiveRecord::Migration$/;"	c
+CreateStudents	db/migrate/20160119214745_create_students.rb	/^class CreateStudents < ActiveRecord::Migration$/;"	c
+Educator	config/application.rb	/^module Educator$/;"	m
+Student	app/models/student.rb	/^class Student < ActiveRecord::Base$/;"	c
+StudentsController	app/controllers/students_controller.rb	/^class StudentsController < ApplicationController$/;"	c
+change	db/migrate/20160119214745_create_students.rb	/^  def change$/;"	f	class:CreateStudents
+change	db/migrate/20160119214924_create_classrooms.rb	/^  def change$/;"	f	class:CreateClassrooms
+change	db/migrate/20160119215120_create_classroom_students.rb	/^  def change$/;"	f	class:CreateClassroomStudents
+create	app/controllers/students_controller.rb	/^  def create$/;"	f	class:StudentsController
+edit	app/controllers/students_controller.rb	/^  def edit$/;"	f	class:StudentsController
+index	app/controllers/classrooms_controller.rb	/^  def index$/;"	f	class:ClassroomsController
+index	app/controllers/students_controller.rb	/^  def index$/;"	f	class:StudentsController
+new	app/controllers/students_controller.rb	/^  def new$/;"	f	class:StudentsController
+oldest_student	app/models/classroom.rb	/^  def oldest_student$/;"	f	class:Classroom
+show	app/controllers/classrooms_controller.rb	/^  def show$/;"	f	class:ClassroomsController
+show	app/controllers/students_controller.rb	/^  def show$/;"	f	class:StudentsController
+student_params	app/controllers/students_controller.rb	/^  def student_params$/;"	f	class:StudentsController
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
